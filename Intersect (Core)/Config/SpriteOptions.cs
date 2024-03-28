@@ -10,7 +10,7 @@ namespace Intersect.Config
         /// <summary>
         /// Defines the number of frames there will be in attacking sprite sheets.
         /// </summary>
-        public int AttackFrames { get; set; } = 4;
+        public int AttackFrames { get; set; } = 13;
 
         /// <summary>
         /// Defines the number of frames there will be in casting sprite sheets.
@@ -20,7 +20,7 @@ namespace Intersect.Config
         /// <summary>
         /// Defines the number of frames there will be in idling sprite sheets.
         /// </summary>
-        public int IdleFrames { get; set; } = 4;
+        public int IdleFrames { get; set; } = 2;
 
         /// <summary>
         /// Defines the duration (in milliseconds) for transitioning between consecutive idling frames.
@@ -35,12 +35,12 @@ namespace Intersect.Config
         /// <summary>
         /// Defines the number of frames there will be in normal (walking) sprite sheets.
         /// </summary>
-        public int NormalFrames { get; set; } = 4;
+        public int NormalFrames { get; set; } = 5;
 
         /// <summary>
         /// Defines a single frame from the normal sprite sheet to show for attacking when there is no designated sheet for attack.
         /// </summary>
-        public int NormalAttackFrame { get; set; } = 3;
+        public int NormalAttackFrame { get; set; } = 13;
 
         /// <summary>
         /// Defines a single frame from the normal sprite sheet to show when blocking.
